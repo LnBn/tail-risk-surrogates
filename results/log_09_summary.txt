@@ -1,0 +1,134 @@
+
+[filtered] rejections (BH q<=0.05) by family and side:
+side         left  right
+family                  
+exponential    13      5
+lognormal       0      0
+powerlaw        1      2
+[filtered] Holm rejections: 0
+
+[raw] rejections (BH q<=0.05) by family and side:
+side         left  right
+family                  
+exponential    17     16
+lognormal       0      1
+powerlaw        2      3
+[raw] Holm rejections: 0
+
+per-asset verdicts (filtered):
+side               left                          right                   
+family      exponential lognormal powerlaw exponential lognormal powerlaw
+asset                                                                    
+SP500             0.028     0.792    0.712       0.095     0.792    0.792
+NASDAQ            0.028     0.156    0.240       0.418     0.687    0.862
+FTSE100           0.028     0.453    0.453       0.143     0.438    0.229
+DAX               0.028     0.761    0.412       0.389     0.974    0.998
+NIKKEI225         0.028     0.421    0.429       0.037     0.267    0.086
+HANGSENG          0.028     0.156    0.453       0.503     0.412    0.095
+EUROSTOXX50       0.240     0.846    0.427       0.351     0.318    0.028
+IBM               0.028     0.226    0.412       0.028     0.503    0.681
+KO                0.028     0.972    0.600       0.512     0.766    0.332
+XOM               0.075     0.818    0.840       0.818     0.761    0.267
+JPM               0.028     0.612    0.453       0.123     0.792    0.857
+JNJ               0.059     0.927    0.799       0.134     0.609    0.602
+EURUSD            0.225     0.795    0.927       0.267     0.327    0.190
+GBPUSD            0.217     0.687    0.725       0.028     0.453    0.412
+USDJPY            0.037     0.412    0.359       0.105     0.470    0.412
+USDCHF            0.028     0.453    0.236       0.059     0.663    0.927
+AUDUSD            0.028     0.792    0.805       0.456     0.851    0.799
+GOLD              0.255     0.905    0.792       0.371     0.857    0.862
+BRENT             0.037     0.579    0.165       0.123     0.148    0.045
+UST10Y            0.068     0.412    0.028       0.028     0.355    0.472
+BTC               0.059     0.576    0.689       0.095     0.689    0.453
+ETH               0.190     0.668    0.857       0.045     0.577    0.635
+
+sensitivity patterns (filtered; o = ok, X = rejected, . = not run):
+side               left                             right                      
+family      exponential  lognormal   powerlaw exponential  lognormal   powerlaw
+asset                                                                          
+SP500         X X X X X  o o X X X  o o X X X   X X o o X  o o o o o  o o X X X
+NASDAQ        o X X o X  X o o o o  o o X X X   o o o o X  o o o o X  o o X X X
+FTSE100       X X X X X  o o o o o  o o X X X   o o o o X  o o o o o  o o X X X
+DAX           X X X X X  o o o X X  o o o X X   o o o X X  o o o o X  o o X X X
+NIKKEI225     X X X X X  o o o o o  o o o X X   o o X o X  o o o o o  o o X X X
+HANGSENG      X X X X X  o o o o o  o X o X X   o o o o X  o o o o X  o o X X X
+EUROSTOXX50   o o o o o  o o o o o  o o o X X   o o o o X  o o o o o  o X o X X
+IBM           X X X X X  o o X X X  o o o X X   X X X X X  o o o o o  o o o X X
+KO            X X X X X  o o o o o  o o X X X   o o o o o  o o o o o  o X X X X
+XOM           X X X X X  o o o o o  o o X X X   o o o o X  o o o o o  o o X X X
+JPM           X X X X X  o o o o X  o o o X X   o o o X X  o o o o o  o o X X X
+JNJ           X X X X X  o o o o o  o o X X X   o o X o o  o o o o o  o o X X X
+EURUSD        o o o o X  o o o o o  o o X X X   o o o o X  o o o o o  o o X X X
+GBPUSD        o o o X o  o o o o o  o o X X X   X X X X X  o o o o X  o o X X X
+USDJPY        o X X X X  o o X o o  o o X X X   o o X X o  o o o o o  o o X X X
+USDCHF        X X X X X  o o o o X  o X X X X   o o o o o  o o o o o  o o X X X
+AUDUSD        o X X X o  o o o o o  o o X X X   o o o o X  o o o o X  o o X X X
+GOLD          o o o o o  o o o o o  o o o X X   o o o o o  o o o o o  o o o X X
+BRENT         o o X o o  o o o o o  o o X X X   o o o X o  o o o o o  X o X X X
+UST10Y        o o X o o  o o o o o  o o X X X   o o o o X  o o o o o  o o X X X
+BTC           X X X X X  o o o o o  o o o X X   o o X X o  o o o o o  o o o X X
+ETH           . o o o X  . o o o o  . o o X X   . X X o o  . o o o o  . o o X X
+
+pooled:
+           grouping  side      family statistic                            test  n  cauchy_p  fisher_p  n_positive_z
+         all assets  left exponential        ks  two-sided/upper as in headline 22    0.0033    0.0000           NaN
+         all assets  left exponential       max  two-sided/upper as in headline 22    0.0048    0.0000           NaN
+         all assets  left exponential  top_hill  two-sided/upper as in headline 22    0.0049    0.0000           NaN
+         all assets  left   lognormal        ks  two-sided/upper as in headline 22    0.9247    0.9761           NaN
+         all assets  left   lognormal       max  two-sided/upper as in headline 22    0.7989    0.7001           NaN
+         all assets  left   lognormal  top_hill  two-sided/upper as in headline 22    1.0000    0.3745           NaN
+         all assets  left    powerlaw        ks  two-sided/upper as in headline 22    0.9203    0.9518           NaN
+         all assets  left    powerlaw       max  two-sided/upper as in headline 22    0.6946    0.1488           NaN
+         all assets  left    powerlaw  top_hill  two-sided/upper as in headline 22    0.0451    0.1983           NaN
+         all assets right exponential        ks  two-sided/upper as in headline 22    0.0115    0.0000           NaN
+         all assets right exponential       max  two-sided/upper as in headline 22    0.0196    0.0000           NaN
+         all assets right exponential  top_hill  two-sided/upper as in headline 22    0.0142    0.0000           NaN
+         all assets right   lognormal        ks  two-sided/upper as in headline 22    0.8048    0.9884           NaN
+         all assets right   lognormal       max  two-sided/upper as in headline 22    1.0000    0.4268           NaN
+         all assets right   lognormal  top_hill  two-sided/upper as in headline 22    0.6257    0.5836           NaN
+         all assets right    powerlaw        ks  two-sided/upper as in headline 22    0.9094    0.9877           NaN
+         all assets right    powerlaw       max  two-sided/upper as in headline 22    0.1070    0.0367           NaN
+         all assets right    powerlaw  top_hill  two-sided/upper as in headline 22    0.0307    0.0054           NaN
+         all assets  left    powerlaw  top_hill far tail lighter than power law 22    0.0206    0.0348          10.0
+         all assets  left    powerlaw  top_hill far tail heavier than power law 22    1.0000    0.8948          10.0
+         all assets right    powerlaw  top_hill far tail lighter than power law 22    0.0145    0.0000          16.0
+         all assets right    powerlaw  top_hill far tail heavier than power law 22    1.0000    0.9999          16.0
+         all assets  both    powerlaw  top_hill far tail lighter than power law 44    0.0170    0.0000          26.0
+         all assets  both    powerlaw  top_hill far tail heavier than power law 44    1.0000    0.9996          26.0
+   class: commodity  both exponential       all  two-sided/upper as in headline 12    0.0271    0.0007           NaN
+   class: commodity  both   lognormal       all  two-sided/upper as in headline 12    0.2993    0.6459           NaN
+   class: commodity  both    powerlaw       all  two-sided/upper as in headline 12    0.0393    0.0399           NaN
+      class: crypto  both exponential       all  two-sided/upper as in headline 12    0.0167    0.0000           NaN
+      class: crypto  both   lognormal       all  two-sided/upper as in headline 12    0.5129    0.6905           NaN
+      class: crypto  both    powerlaw       all  two-sided/upper as in headline 12    0.9299    0.9673           NaN
+class: equity index  both exponential       all  two-sided/upper as in headline 42    0.0048    0.0000           NaN
+class: equity index  both   lognormal       all  two-sided/upper as in headline 42    1.0000    0.4767           NaN
+class: equity index  both    powerlaw       all  two-sided/upper as in headline 42    0.1006    0.0441           NaN
+          class: fx  both exponential       all  two-sided/upper as in headline 30    0.0093    0.0000           NaN
+          class: fx  both   lognormal       all  two-sided/upper as in headline 30    0.8432    0.8174           NaN
+          class: fx  both    powerlaw       all  two-sided/upper as in headline 30    0.7101    0.6497           NaN
+       class: rates  both exponential       all  two-sided/upper as in headline  6    0.0083    0.0001           NaN
+       class: rates  both   lognormal       all  two-sided/upper as in headline  6    0.3169    0.3241           NaN
+       class: rates  both    powerlaw       all  two-sided/upper as in headline  6    0.0121    0.0081           NaN
+class: single stock  both exponential       all  two-sided/upper as in headline 30    0.0046    0.0000           NaN
+class: single stock  both   lognormal       all  two-sided/upper as in headline 30    1.0000    0.9947           NaN
+class: single stock  both    powerlaw       all  two-sided/upper as in headline 30    0.7873    0.6654           NaN
+
+clustering p<0.05 (of 44 asset-sides): {'GARCH-n': 10, 'GJR-n': 9, 'GJR-t': 6, 'raw': 44}
+filters chosen: {'GJR-t': 21, 'GARCH-n': 1}  non-converged fits: [['GBPUSD', 'GJR-t']]
+asymmetry: {'n_assets': 22, 'n_left_heavier': 19, 'median_diff': -0.6139580698989282, 'sign_test_p': 0.0008554458618164062}
+
+tail index meta:
+           grouping  side  n_assets  zeta_pooled  ci_lo  ci_hi  tau_between_assets    I2
+         all assets  left        22        3.708  3.498  3.917               0.321 0.461
+         all assets right        22        4.373  4.045  4.701               0.577 0.639
+   class: commodity  left         2        3.509  3.109  3.910               0.000 0.000
+   class: commodity right         2        4.032  2.881  5.183               0.586 0.449
+      class: crypto  left         2        3.006  2.337  3.674               0.000 0.000
+      class: crypto right         2        3.394  2.631  4.157               0.000 0.000
+class: equity index  left         7        3.855  3.571  4.139               0.143 0.139
+class: equity index right         7        4.784  4.193  5.375               0.589 0.614
+          class: fx  left         5        3.946  3.414  4.479               0.414 0.494
+          class: fx right         5        4.353  3.938  4.769               0.000 0.000
+class: single stock  left         5        3.775  3.196  4.354               0.529 0.711
+class: single stock right         5        4.121  3.408  4.834               0.670 0.744

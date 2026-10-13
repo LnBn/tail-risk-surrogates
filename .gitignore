@@ -1,0 +1,21 @@
+# Downloaded market data (Yahoo Finance / FRED): never commit, Yahoo data may not be redistributed
+data/
+
+# Backtest forecast files contain the daily loss series derived from Yahoo prices
+results/backtest_*.csv
+results/backtest_*.csv.gz
+!results/backtest_*_summary.csv
+
+# Python / tooling
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+.venv/
+.env
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

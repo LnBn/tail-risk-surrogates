@@ -1,0 +1,70 @@
+(a) commutativity ...
+     family    statistic      method  mean_fresh  mean_surrogate  ks2_pvalue
+   powerlaw    log10 max constrained      1.3114          1.3078      0.4005
+   powerlaw    log10 max     typical      1.3114          1.3107      0.0000
+   powerlaw top-10% Hill constrained      1.8619          1.8771      0.1409
+   powerlaw top-10% Hill     typical      1.8619          1.8944      0.0072
+  lognormal    log10 max constrained      0.8237          0.8212      0.5543
+  lognormal    log10 max     typical      0.8237          0.8101      0.0000
+  lognormal top-10% Hill constrained      3.3704          3.3419      0.9012
+  lognormal top-10% Hill     typical      3.3704          3.6166      0.0000
+exponential    log10 max constrained      0.7297          0.7301      0.9995
+exponential    log10 max     typical      0.7297          0.7246      0.0000
+exponential top-10% Hill constrained      4.7648          4.7741      0.2754
+exponential top-10% Hill     typical      4.7648          4.7584      0.3700
+(d) extreme-event probability ...
+     family              estimator  true_p  mean_estimate  se_mean  relative_bias  relative_rmse  frac_zero
+   powerlaw constrained surrogates   0.002         0.0020   0.0000         0.0209         0.9948     0.0235
+   powerlaw            MLE plug-in   0.002         0.0026   0.0000         0.2766         1.1251     0.0000
+   powerlaw    empirical frequency   0.002         0.0020   0.0001        -0.0250         3.1305     0.9075
+  lognormal constrained surrogates   0.002         0.0019   0.0001        -0.0728         1.8161     0.3725
+  lognormal            MLE plug-in   0.002         0.0026   0.0001         0.3035         1.6505     0.0000
+  lognormal    empirical frequency   0.002         0.0022   0.0001         0.0750         3.2249     0.8965
+exponential constrained surrogates   0.002         0.0019   0.0000        -0.0402         1.0031     0.0220
+exponential            MLE plug-in   0.002         0.0024   0.0000         0.2134         1.1142     0.0000
+exponential    empirical frequency   0.002         0.0019   0.0001        -0.0400         3.0463     0.9070
+(b, c) size and power grid ...
+N                                                50     100    250    500
+process     null        statistic method                                 
+exponential exponential ks        constrained  0.038  0.045  0.072  0.050
+                        max       constrained  0.040  0.068  0.050  0.040
+                                  typical      0.008  0.020  0.042  0.040
+                        top_hill  constrained  0.050  0.040  0.035  0.025
+                                  typical      0.038  0.025  0.035  0.038
+            lognormal   ks        constrained  0.050  0.058  0.075  0.120
+                        max       constrained  0.045  0.058  0.068  0.130
+                        top_hill  constrained  0.048  0.050  0.078  0.145
+            powerlaw    ks        constrained  0.535  0.832  0.998  1.000
+                        max       constrained  0.522  0.880  0.992  1.000
+                        top_hill  constrained  0.278  0.680  0.990  1.000
+lognormal   exponential ks        constrained  0.298  0.525  0.865  0.998
+                        max       constrained  0.260  0.420  0.615  0.752
+                        top_hill  constrained  0.218  0.332  0.635  0.890
+            lognormal   ks        constrained  0.058  0.062  0.050  0.052
+                        max       constrained  0.038  0.035  0.038  0.030
+                                  typical      0.002  0.002  0.005  0.022
+                        top_hill  constrained  0.052  0.045  0.040  0.045
+                                  typical      0.025  0.012  0.010  0.018
+            powerlaw    ks        constrained  0.170  0.258  0.532  0.818
+                        max       constrained  0.102  0.212  0.390  0.558
+                        top_hill  constrained  0.050  0.158  0.360  0.735
+powerlaw    exponential ks        constrained  0.892  0.995  1.000  1.000
+                        max       constrained  0.730  0.888  0.990  0.998
+                        top_hill  constrained  0.638  0.852  0.998  1.000
+            lognormal   ks        constrained  0.055  0.040  0.052  0.032
+                        max       constrained  0.030  0.015  0.018  0.015
+                        top_hill  constrained  0.052  0.048  0.050  0.038
+            powerlaw    ks        constrained  0.035  0.045  0.032  0.048
+                        max       constrained  0.030  0.030  0.032  0.050
+                                  typical      0.020  0.015  0.030  0.045
+                        top_hill  constrained  0.050  0.050  0.035  0.035
+                                  typical      0.040  0.038  0.020  0.022
+student_t   exponential ks        constrained  0.290  0.492  0.835  0.972
+                        max       constrained  0.328  0.445  0.665  0.865
+                        top_hill  constrained  0.232  0.425  0.712  0.928
+            lognormal   ks        constrained  0.030  0.040  0.060  0.080
+                        max       constrained  0.042  0.042  0.018  0.015
+                        top_hill  constrained  0.048  0.052  0.032  0.075
+            powerlaw    ks        constrained  0.118  0.195  0.512  0.812
+                        max       constrained  0.098  0.095  0.208  0.295
+                        top_hill  constrained  0.052  0.070  0.215  0.458

@@ -1,0 +1,265 @@
+series,asset,class,side,family,min_p,min_q_bh,min_p_holm,rejected_bh,rejected_holm,deciding_statistic,direction
+filtered,AUDUSD,fx,left,exponential,0.002,0.028285714285714286,0.782,True,False,top_hill,far tail heavier than fit
+filtered,AUDUSD,fx,left,lognormal,0.448,0.792,1.0,False,False,,
+filtered,AUDUSD,fx,left,powerlaw,0.486,0.8052552301255229,1.0,False,False,,
+filtered,AUDUSD,fx,right,exponential,0.168,0.45567123287671235,1.0,False,False,,
+filtered,AUDUSD,fx,right,lognormal,0.538,0.8514782608695652,1.0,False,False,,
+filtered,AUDUSD,fx,right,powerlaw,0.476,0.7986554621848739,1.0,False,False,,
+filtered,BRENT,commodity,left,exponential,0.003,0.037125,1.0,True,False,ks,poor overall fit (KS)
+filtered,BRENT,commodity,left,lognormal,0.244,0.5785868263473054,1.0,False,False,,
+filtered,BRENT,commodity,left,powerlaw,0.028,0.16549253731343286,1.0,False,False,,
+filtered,BRENT,commodity,right,exponential,0.018,0.12289655172413792,1.0,False,False,,
+filtered,BRENT,commodity,right,lognormal,0.024,0.1485,1.0,False,False,,
+filtered,BRENT,commodity,right,powerlaw,0.004,0.04525714285714286,1.0,True,False,max,max smaller than family implies
+filtered,BTC,crypto,left,exponential,0.006,0.059399999999999994,1.0,False,False,,
+filtered,BTC,crypto,left,lognormal,0.24,0.576,1.0,False,False,,
+filtered,BTC,crypto,left,powerlaw,0.334,0.6894093264248705,1.0,False,False,,
+filtered,BTC,crypto,right,exponential,0.012,0.09504,1.0,False,False,,
+filtered,BTC,crypto,right,lognormal,0.336,0.6894093264248705,1.0,False,False,,
+filtered,BTC,crypto,right,powerlaw,0.164,0.45335172413793107,1.0,False,False,,
+filtered,DAX,equity index,left,exponential,0.002,0.028285714285714286,0.782,True,False,max,max larger than family implies
+filtered,DAX,equity index,left,lognormal,0.398,0.7613913043478261,1.0,False,False,,
+filtered,DAX,equity index,left,powerlaw,0.128,0.4120975609756098,1.0,False,False,,
+filtered,DAX,equity index,right,exponential,0.11,0.38892857142857146,1.0,False,False,,
+filtered,DAX,equity index,right,lognormal,0.808,0.9744,1.0,False,False,,
+filtered,DAX,equity index,right,powerlaw,0.93,0.9980406091370558,1.0,False,False,,
+filtered,ETH,crypto,left,exponential,0.034,0.18963380281690143,1.0,False,False,,
+filtered,ETH,crypto,left,lognormal,0.304,0.667978021978022,1.0,False,False,,
+filtered,ETH,crypto,left,powerlaw,0.556,0.856715953307393,1.0,False,False,,
+filtered,ETH,crypto,right,exponential,0.004,0.04525714285714286,1.0,True,False,top_hill,far tail heavier than fit
+filtered,ETH,crypto,right,lognormal,0.242,0.577301204819277,1.0,False,False,,
+filtered,ETH,crypto,right,powerlaw,0.284,0.6353898305084745,1.0,False,False,,
+filtered,EUROSTOXX50,equity index,left,exponential,0.053,0.24026966292134833,1.0,False,False,,
+filtered,EUROSTOXX50,equity index,left,lognormal,0.53,0.8460722891566266,1.0,False,False,,
+filtered,EUROSTOXX50,equity index,left,powerlaw,0.138,0.4269375,1.0,False,False,,
+filtered,EUROSTOXX50,equity index,right,exponential,0.094,0.3511698113207547,1.0,False,False,,
+filtered,EUROSTOXX50,equity index,right,lognormal,0.082,0.3183529411764706,1.0,False,False,,
+filtered,EUROSTOXX50,equity index,right,powerlaw,0.002,0.028285714285714286,0.782,True,False,top_hill,far tail lighter than fit
+filtered,EURUSD,fx,left,exponential,0.042,0.22475675675675677,1.0,False,False,,
+filtered,EURUSD,fx,left,lognormal,0.472,0.7953702127659573,1.0,False,False,,
+filtered,EURUSD,fx,left,powerlaw,0.694,0.9270295081967213,1.0,False,False,,
+filtered,EURUSD,fx,right,exponential,0.064,0.26677894736842106,1.0,False,False,,
+filtered,EURUSD,fx,right,lognormal,0.086,0.3274615384615384,1.0,False,False,,
+filtered,EURUSD,fx,right,powerlaw,0.034,0.18963380281690143,1.0,False,False,,
+filtered,FTSE100,equity index,left,exponential,0.002,0.028285714285714286,0.782,True,False,max,max larger than family implies
+filtered,FTSE100,equity index,left,lognormal,0.166,0.45335172413793107,1.0,False,False,,
+filtered,FTSE100,equity index,left,powerlaw,0.156,0.45335172413793107,1.0,False,False,,
+filtered,FTSE100,equity index,right,exponential,0.022,0.14281967213114755,1.0,False,False,,
+filtered,FTSE100,equity index,right,lognormal,0.146,0.43799999999999994,1.0,False,False,,
+filtered,FTSE100,equity index,right,powerlaw,0.048,0.22901204819277107,1.0,False,False,,
+filtered,GBPUSD,fx,left,exponential,0.04,0.21698630136986302,1.0,False,False,,
+filtered,GBPUSD,fx,left,lognormal,0.326,0.6872380952380953,1.0,False,False,,
+filtered,GBPUSD,fx,left,powerlaw,0.37,0.7253465346534654,1.0,False,False,,
+filtered,GBPUSD,fx,right,exponential,0.002,0.028285714285714286,0.782,True,False,max,max larger than family implies
+filtered,GBPUSD,fx,right,lognormal,0.158,0.45335172413793107,1.0,False,False,,
+filtered,GBPUSD,fx,right,powerlaw,0.128,0.4120975609756098,1.0,False,False,,
+filtered,GOLD,commodity,left,exponential,0.058,0.2552,1.0,False,False,,
+filtered,GOLD,commodity,left,lognormal,0.632,0.9049386281588447,1.0,False,False,,
+filtered,GOLD,commodity,left,powerlaw,0.444,0.792,1.0,False,False,,
+filtered,GOLD,commodity,right,exponential,0.102,0.3705688073394495,1.0,False,False,,
+filtered,GOLD,commodity,right,lognormal,0.554,0.856715953307393,1.0,False,False,,
+filtered,GOLD,commodity,right,powerlaw,0.568,0.8622339622641509,1.0,False,False,,
+filtered,HANGSENG,equity index,left,exponential,0.002,0.028285714285714286,0.782,True,False,max,max larger than family implies
+filtered,HANGSENG,equity index,left,lognormal,0.026,0.156,1.0,False,False,,
+filtered,HANGSENG,equity index,left,powerlaw,0.165,0.45335172413793107,1.0,False,False,,
+filtered,HANGSENG,equity index,right,exponential,0.202,0.5030943396226415,1.0,False,False,,
+filtered,HANGSENG,equity index,right,lognormal,0.124,0.4120975609756098,1.0,False,False,,
+filtered,HANGSENG,equity index,right,powerlaw,0.012,0.09504,1.0,False,False,,
+filtered,IBM,single stock,left,exponential,0.001,0.028285714285714286,0.396,True,False,max,max larger than family implies
+filtered,IBM,single stock,left,lognormal,0.044,0.22628571428571428,1.0,False,False,,
+filtered,IBM,single stock,left,powerlaw,0.124,0.4120975609756098,1.0,False,False,,
+filtered,IBM,single stock,right,exponential,0.001,0.028285714285714286,0.396,True,False,top_hill,far tail heavier than fit
+filtered,IBM,single stock,right,lognormal,0.202,0.5030943396226415,1.0,False,False,,
+filtered,IBM,single stock,right,powerlaw,0.318,0.6806918918918918,1.0,False,False,,
+filtered,JNJ,single stock,left,exponential,0.006,0.059399999999999994,1.0,False,False,,
+filtered,JNJ,single stock,left,lognormal,0.714,0.9270295081967213,1.0,False,False,,
+filtered,JNJ,single stock,left,powerlaw,0.48,0.7986554621848739,1.0,False,False,,
+filtered,JNJ,single stock,right,exponential,0.02,0.1342372881355932,1.0,False,False,,
+filtered,JNJ,single stock,right,lognormal,0.266,0.6088786127167631,1.0,False,False,,
+filtered,JNJ,single stock,right,powerlaw,0.26,0.6021052631578948,1.0,False,False,,
+filtered,JPM,single stock,left,exponential,0.002,0.028285714285714286,0.782,True,False,max,max larger than family implies
+filtered,JPM,single stock,left,lognormal,0.272,0.612,1.0,False,False,,
+filtered,JPM,single stock,left,powerlaw,0.164,0.45335172413793107,1.0,False,False,,
+filtered,JPM,single stock,right,exponential,0.018,0.12289655172413792,1.0,False,False,,
+filtered,JPM,single stock,right,lognormal,0.458,0.792,1.0,False,False,,
+filtered,JPM,single stock,right,powerlaw,0.551,0.856715953307393,1.0,False,False,,
+filtered,KO,single stock,left,exponential,0.001,0.028285714285714286,0.396,True,False,top_hill,far tail heavier than fit
+filtered,KO,single stock,left,lognormal,0.798,0.9723323076923078,1.0,False,False,,
+filtered,KO,single stock,left,powerlaw,0.256,0.5998579881656805,1.0,False,False,,
+filtered,KO,single stock,right,exponential,0.208,0.5116024844720497,1.0,False,False,,
+filtered,KO,single stock,right,lognormal,0.408,0.7657251184834123,1.0,False,False,,
+filtered,KO,single stock,right,powerlaw,0.088,0.3318857142857143,1.0,False,False,,
+filtered,NASDAQ,equity index,left,exponential,0.002,0.028285714285714286,0.782,True,False,top_hill,far tail heavier than fit
+filtered,NASDAQ,equity index,left,lognormal,0.026,0.156,1.0,False,False,,
+filtered,NASDAQ,equity index,left,powerlaw,0.054,0.24026966292134833,1.0,False,False,,
+filtered,NASDAQ,equity index,right,exponential,0.132,0.41817600000000005,1.0,False,False,,
+filtered,NASDAQ,equity index,right,lognormal,0.328,0.6872380952380953,1.0,False,False,,
+filtered,NASDAQ,equity index,right,powerlaw,0.569,0.8622339622641509,1.0,False,False,,
+filtered,NIKKEI225,equity index,left,exponential,0.001,0.028285714285714286,0.396,True,False,max,max larger than family implies
+filtered,NIKKEI225,equity index,left,lognormal,0.135,0.4209448818897638,1.0,False,False,,
+filtered,NIKKEI225,equity index,left,powerlaw,0.141,0.4292519083969465,1.0,False,False,,
+filtered,NIKKEI225,equity index,right,exponential,0.003,0.037125,1.0,True,False,ks,poor overall fit (KS)
+filtered,NIKKEI225,equity index,right,lognormal,0.064,0.26677894736842106,1.0,False,False,,
+filtered,NIKKEI225,equity index,right,powerlaw,0.01,0.08608695652173913,1.0,False,False,,
+filtered,SP500,equity index,left,exponential,0.001,0.028285714285714286,0.396,True,False,max,max larger than family implies
+filtered,SP500,equity index,left,lognormal,0.452,0.792,1.0,False,False,,
+filtered,SP500,equity index,left,powerlaw,0.358,0.7124020100502513,1.0,False,False,,
+filtered,SP500,equity index,right,exponential,0.012,0.09504,1.0,False,False,,
+filtered,SP500,equity index,right,lognormal,0.464,0.792,1.0,False,False,,
+filtered,SP500,equity index,right,powerlaw,0.468,0.792,1.0,False,False,,
+filtered,USDCHF,fx,left,exponential,0.002,0.028285714285714286,0.782,True,False,max,max larger than family implies
+filtered,USDCHF,fx,left,lognormal,0.162,0.45335172413793107,1.0,False,False,,
+filtered,USDCHF,fx,left,powerlaw,0.05,0.2357142857142857,1.0,False,False,,
+filtered,USDCHF,fx,right,exponential,0.006,0.059399999999999994,1.0,False,False,,
+filtered,USDCHF,fx,right,lognormal,0.298,0.6629662921348314,1.0,False,False,,
+filtered,USDCHF,fx,right,powerlaw,0.658,0.9270295081967213,1.0,False,False,,
+filtered,USDJPY,fx,left,exponential,0.003,0.037125,1.0,True,False,ks,poor overall fit (KS)
+filtered,USDJPY,fx,left,lognormal,0.128,0.4120975609756098,1.0,False,False,,
+filtered,USDJPY,fx,left,powerlaw,0.098,0.35933333333333334,1.0,False,False,,
+filtered,USDJPY,fx,right,exponential,0.014,0.10460377358490566,1.0,False,False,,
+filtered,USDJPY,fx,right,lognormal,0.178,0.46992,1.0,False,False,,
+filtered,USDJPY,fx,right,powerlaw,0.122,0.4120975609756098,1.0,False,False,,
+filtered,UST10Y,rates,left,exponential,0.007,0.06760975609756098,1.0,False,False,,
+filtered,UST10Y,rates,left,lognormal,0.126,0.4120975609756098,1.0,False,False,,
+filtered,UST10Y,rates,left,powerlaw,0.002,0.028285714285714286,0.782,True,False,top_hill,far tail lighter than fit
+filtered,UST10Y,rates,right,exponential,0.002,0.028285714285714286,0.782,True,False,top_hill,far tail heavier than fit
+filtered,UST10Y,rates,right,lognormal,0.096,0.35528971962616823,1.0,False,False,,
+filtered,UST10Y,rates,right,powerlaw,0.18,0.47205298013245034,1.0,False,False,,
+filtered,XOM,single stock,left,exponential,0.008,0.07542857142857143,1.0,False,False,,
+filtered,XOM,single stock,left,lognormal,0.502,0.8180740740740741,1.0,False,False,,
+filtered,XOM,single stock,left,powerlaw,0.524,0.8400971659919029,1.0,False,False,,
+filtered,XOM,single stock,right,exponential,0.501,0.8180740740740741,1.0,False,False,,
+filtered,XOM,single stock,right,lognormal,0.397,0.7613913043478261,1.0,False,False,,
+filtered,XOM,single stock,right,powerlaw,0.064,0.26677894736842106,1.0,False,False,,
+raw,AUDUSD,fx,left,exponential,0.001,0.014142857142857143,0.396,True,False,top_hill,far tail heavier than fit
+raw,AUDUSD,fx,left,lognormal,0.474,0.7820999999999999,1.0,False,False,,
+raw,AUDUSD,fx,left,powerlaw,0.536,0.8305214007782101,1.0,False,False,,
+raw,AUDUSD,fx,right,exponential,0.001,0.014142857142857143,0.396,True,False,max,max larger than family implies
+raw,AUDUSD,fx,right,lognormal,0.049,0.17325,1.0,False,False,,
+raw,AUDUSD,fx,right,powerlaw,0.107,0.30483453237410074,1.0,False,False,,
+raw,BRENT,commodity,left,exponential,0.001,0.014142857142857143,0.396,True,False,max,max larger than family implies
+raw,BRENT,commodity,left,lognormal,0.546,0.838046511627907,1.0,False,False,,
+raw,BRENT,commodity,left,powerlaw,0.378,0.6994766355140186,1.0,False,False,,
+raw,BRENT,commodity,right,exponential,0.001,0.014142857142857143,0.396,True,False,max,max larger than family implies
+raw,BRENT,commodity,right,lognormal,0.324,0.6320394088669951,1.0,False,False,,
+raw,BRENT,commodity,right,powerlaw,0.114,0.31791549295774646,1.0,False,False,,
+raw,BTC,crypto,left,exponential,0.002,0.014142857142857143,0.754,True,False,max,max larger than family implies
+raw,BTC,crypto,left,lognormal,0.15,0.3832258064516129,1.0,False,False,,
+raw,BTC,crypto,left,powerlaw,0.149,0.3831428571428571,1.0,False,False,,
+raw,BTC,crypto,right,exponential,0.124,0.34099999999999997,1.0,False,False,,
+raw,BTC,crypto,right,lognormal,0.536,0.8305214007782101,1.0,False,False,,
+raw,BTC,crypto,right,powerlaw,0.754,0.9491428571428572,1.0,False,False,,
+raw,DAX,equity index,left,exponential,0.035,0.1386,1.0,False,False,,
+raw,DAX,equity index,left,lognormal,0.182,0.4315688622754491,1.0,False,False,,
+raw,DAX,equity index,left,powerlaw,0.002,0.014142857142857143,0.754,True,False,top_hill,far tail lighter than fit
+raw,DAX,equity index,right,exponential,0.002,0.014142857142857143,0.754,True,False,ks,poor overall fit (KS)
+raw,DAX,equity index,right,lognormal,0.106,0.30417391304347824,1.0,False,False,,
+raw,DAX,equity index,right,powerlaw,0.054,0.1843448275862069,1.0,False,False,,
+raw,ETH,crypto,left,exponential,0.002,0.014142857142857143,0.754,True,False,max,max larger than family implies
+raw,ETH,crypto,left,lognormal,0.086,0.258,1.0,False,False,,
+raw,ETH,crypto,left,powerlaw,0.012,0.05795121951219512,1.0,False,False,,
+raw,ETH,crypto,right,exponential,0.776,0.9538328173374614,1.0,False,False,,
+raw,ETH,crypto,right,lognormal,0.316,0.6225671641791044,1.0,False,False,,
+raw,ETH,crypto,right,powerlaw,0.002,0.014142857142857143,0.754,True,False,max,max smaller than family implies
+raw,EUROSTOXX50,equity index,left,exponential,0.001,0.014142857142857143,0.396,True,False,ks,poor overall fit (KS)
+raw,EUROSTOXX50,equity index,left,lognormal,0.455,0.7570588235294118,1.0,False,False,,
+raw,EUROSTOXX50,equity index,left,powerlaw,0.002,0.014142857142857143,0.754,True,False,top_hill,far tail lighter than fit
+raw,EUROSTOXX50,equity index,right,exponential,0.001,0.014142857142857143,0.396,True,False,ks,poor overall fit (KS)
+raw,EUROSTOXX50,equity index,right,lognormal,0.178,0.4272,1.0,False,False,,
+raw,EUROSTOXX50,equity index,right,powerlaw,0.436,0.7506782608695652,1.0,False,False,,
+raw,EURUSD,fx,left,exponential,0.427,0.7448986784140968,1.0,False,False,,
+raw,EURUSD,fx,left,lognormal,0.337,0.6509853658536585,1.0,False,False,,
+raw,EURUSD,fx,left,powerlaw,0.346,0.6587307692307692,1.0,False,False,,
+raw,EURUSD,fx,right,exponential,0.024,0.1011063829787234,1.0,False,False,,
+raw,EURUSD,fx,right,lognormal,0.538,0.8305214007782101,1.0,False,False,,
+raw,EURUSD,fx,right,powerlaw,0.312,0.6177600000000001,1.0,False,False,,
+raw,FTSE100,equity index,left,exponential,0.011,0.055846153846153844,1.0,False,False,,
+raw,FTSE100,equity index,left,lognormal,0.392,0.7120733944954128,1.0,False,False,,
+raw,FTSE100,equity index,left,powerlaw,0.176,0.42497560975609755,1.0,False,False,,
+raw,FTSE100,equity index,right,exponential,0.02,0.088,1.0,False,False,,
+raw,FTSE100,equity index,right,lognormal,0.312,0.6177600000000001,1.0,False,False,,
+raw,FTSE100,equity index,right,powerlaw,0.404,0.7239095022624434,1.0,False,False,,
+raw,GBPUSD,fx,left,exponential,0.002,0.014142857142857143,0.754,True,False,max,max larger than family implies
+raw,GBPUSD,fx,left,lognormal,0.204,0.47519999999999996,1.0,False,False,,
+raw,GBPUSD,fx,left,powerlaw,0.072,0.224503937007874,1.0,False,False,,
+raw,GBPUSD,fx,right,exponential,0.001,0.014142857142857143,0.396,True,False,top_hill,far tail heavier than fit
+raw,GBPUSD,fx,right,lognormal,0.218,0.49330285714285715,1.0,False,False,,
+raw,GBPUSD,fx,right,powerlaw,0.18,0.4293975903614458,1.0,False,False,,
+raw,GOLD,commodity,left,exponential,0.037,0.1436470588235294,1.0,False,False,,
+raw,GOLD,commodity,left,lognormal,0.384,0.7007557603686636,1.0,False,False,,
+raw,GOLD,commodity,left,powerlaw,0.062,0.2046,1.0,False,False,,
+raw,GOLD,commodity,right,exponential,0.004,0.02475,1.0,True,False,max,max larger than family implies
+raw,GOLD,commodity,right,lognormal,0.138,0.366765100671141,1.0,False,False,,
+raw,GOLD,commodity,right,powerlaw,0.052,0.17906086956521738,1.0,False,False,,
+raw,HANGSENG,equity index,left,exponential,0.001,0.014142857142857143,0.396,True,False,max,max larger than family implies
+raw,HANGSENG,equity index,left,lognormal,0.27,0.5669052631578948,1.0,False,False,,
+raw,HANGSENG,equity index,left,powerlaw,0.506,0.8112388663967611,1.0,False,False,,
+raw,HANGSENG,equity index,right,exponential,0.004,0.02475,1.0,True,False,ks,poor overall fit (KS)
+raw,HANGSENG,equity index,right,lognormal,0.746,0.9491428571428572,1.0,False,False,,
+raw,HANGSENG,equity index,right,powerlaw,0.642,0.9089679715302492,1.0,False,False,,
+raw,IBM,single stock,left,exponential,0.001,0.014142857142857143,0.396,True,False,max,max larger than family implies
+raw,IBM,single stock,left,lognormal,0.644,0.9089679715302492,1.0,False,False,,
+raw,IBM,single stock,left,powerlaw,0.817,0.9715675675675676,1.0,False,False,,
+raw,IBM,single stock,right,exponential,0.001,0.014142857142857143,0.396,True,False,top_hill,far tail heavier than fit
+raw,IBM,single stock,right,lognormal,0.004,0.02475,1.0,True,False,max,max smaller than family implies
+raw,IBM,single stock,right,powerlaw,0.002,0.014142857142857143,0.754,True,False,max,max smaller than family implies
+raw,JNJ,single stock,left,exponential,0.001,0.014142857142857143,0.396,True,False,max,max larger than family implies
+raw,JNJ,single stock,left,lognormal,0.382,0.7007557603686636,1.0,False,False,,
+raw,JNJ,single stock,left,powerlaw,0.13,0.3526027397260274,1.0,False,False,,
+raw,JNJ,single stock,right,exponential,0.004,0.02475,1.0,True,False,ks,poor overall fit (KS)
+raw,JNJ,single stock,right,lognormal,0.024,0.1011063829787234,1.0,False,False,,
+raw,JNJ,single stock,right,powerlaw,0.086,0.258,1.0,False,False,,
+raw,JPM,single stock,left,exponential,0.001,0.014142857142857143,0.396,True,False,top_hill,far tail heavier than fit
+raw,JPM,single stock,left,lognormal,0.856,0.9940645161290322,1.0,False,False,,
+raw,JPM,single stock,left,powerlaw,0.878,0.994829268292683,1.0,False,False,,
+raw,JPM,single stock,right,exponential,0.001,0.014142857142857143,0.396,True,False,top_hill,far tail heavier than fit
+raw,JPM,single stock,right,lognormal,0.208,0.4788837209302325,1.0,False,False,,
+raw,JPM,single stock,right,powerlaw,0.04,0.1480373831775701,1.0,False,False,,
+raw,KO,single stock,left,exponential,0.001,0.014142857142857143,0.396,True,False,max,max larger than family implies
+raw,KO,single stock,left,lognormal,0.26,0.5535483870967742,1.0,False,False,,
+raw,KO,single stock,left,powerlaw,0.278,0.5715463917525774,1.0,False,False,,
+raw,KO,single stock,right,exponential,0.002,0.014142857142857143,0.754,True,False,max,max larger than family implies
+raw,KO,single stock,right,lognormal,0.28,0.5715463917525774,1.0,False,False,,
+raw,KO,single stock,right,powerlaw,0.26,0.5535483870967742,1.0,False,False,,
+raw,NASDAQ,equity index,left,exponential,0.004,0.02475,1.0,True,False,ks,poor overall fit (KS)
+raw,NASDAQ,equity index,left,lognormal,0.378,0.6994766355140186,1.0,False,False,,
+raw,NASDAQ,equity index,left,powerlaw,0.306,0.612,1.0,False,False,,
+raw,NASDAQ,equity index,right,exponential,0.016,0.07367441860465117,1.0,False,False,,
+raw,NASDAQ,equity index,right,lognormal,0.526,0.8265714285714286,1.0,False,False,,
+raw,NASDAQ,equity index,right,powerlaw,0.152,0.38584615384615384,1.0,False,False,,
+raw,NIKKEI225,equity index,left,exponential,0.002,0.014142857142857143,0.754,True,False,top_hill,far tail heavier than fit
+raw,NIKKEI225,equity index,left,lognormal,0.74,0.9491428571428572,1.0,False,False,,
+raw,NIKKEI225,equity index,left,powerlaw,0.448,0.7570588235294118,1.0,False,False,,
+raw,NIKKEI225,equity index,right,exponential,0.005,0.03,1.0,True,False,ks,poor overall fit (KS)
+raw,NIKKEI225,equity index,right,lognormal,0.762,0.9538328173374614,1.0,False,False,,
+raw,NIKKEI225,equity index,right,powerlaw,0.396,0.716054794520548,1.0,False,False,,
+raw,SP500,equity index,left,exponential,0.001,0.014142857142857143,0.396,True,False,max,max larger than family implies
+raw,SP500,equity index,left,lognormal,0.302,0.6070659898477158,1.0,False,False,,
+raw,SP500,equity index,left,powerlaw,0.226,0.5027865168539326,1.0,False,False,,
+raw,SP500,equity index,right,exponential,0.001,0.014142857142857143,0.396,True,False,ks,poor overall fit (KS)
+raw,SP500,equity index,right,lognormal,0.272,0.5669052631578948,1.0,False,False,,
+raw,SP500,equity index,right,powerlaw,0.266,0.563294117647059,1.0,False,False,,
+raw,USDCHF,fx,left,exponential,0.002,0.014142857142857143,0.754,True,False,max,max larger than family implies
+raw,USDCHF,fx,left,lognormal,0.242,0.523672131147541,1.0,False,False,,
+raw,USDCHF,fx,left,powerlaw,0.072,0.224503937007874,1.0,False,False,,
+raw,USDCHF,fx,right,exponential,0.002,0.014142857142857143,0.754,True,False,max,max larger than family implies
+raw,USDCHF,fx,right,lognormal,0.326,0.6328235294117647,1.0,False,False,,
+raw,USDCHF,fx,right,powerlaw,0.352,0.6669473684210526,1.0,False,False,,
+raw,USDJPY,fx,left,exponential,0.027,0.11254736842105263,1.0,False,False,,
+raw,USDJPY,fx,left,lognormal,0.165,0.40837500000000004,1.0,False,False,,
+raw,USDJPY,fx,left,powerlaw,0.048,0.17124324324324325,1.0,False,False,,
+raw,USDJPY,fx,right,exponential,0.01,0.05142857142857143,1.0,False,False,,
+raw,USDJPY,fx,right,lognormal,0.28,0.5715463917525774,1.0,False,False,,
+raw,USDJPY,fx,right,powerlaw,0.296,0.5980408163265306,1.0,False,False,,
+raw,UST10Y,rates,left,exponential,0.001,0.014142857142857143,0.396,True,False,ks,poor overall fit (KS)
+raw,UST10Y,rates,left,lognormal,0.606,0.8950483271375465,1.0,False,False,,
+raw,UST10Y,rates,left,powerlaw,0.202,0.47332544378698227,1.0,False,False,,
+raw,UST10Y,rates,right,exponential,0.002,0.014142857142857143,0.754,True,False,ks,poor overall fit (KS)
+raw,UST10Y,rates,right,lognormal,0.572,0.8547622641509433,1.0,False,False,,
+raw,UST10Y,rates,right,powerlaw,0.002,0.014142857142857143,0.754,True,False,top_hill,far tail lighter than fit
+raw,XOM,single stock,left,exponential,0.001,0.014142857142857143,0.396,True,False,max,max larger than family implies
+raw,XOM,single stock,left,lognormal,0.234,0.5148,1.0,False,False,,
+raw,XOM,single stock,left,powerlaw,0.096,0.27952941176470586,1.0,False,False,,
+raw,XOM,single stock,right,exponential,0.001,0.014142857142857143,0.396,True,False,top_hill,far tail heavier than fit
+raw,XOM,single stock,right,lognormal,0.346,0.6587307692307692,1.0,False,False,,
+raw,XOM,single stock,right,powerlaw,0.156,0.3885283018867925,1.0,False,False,,

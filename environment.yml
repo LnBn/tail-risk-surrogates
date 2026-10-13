@@ -1,0 +1,15 @@
+# Conda environment for tail-risk-surrogates (the versions the published results were produced with).
+name: tail-risk-surrogates
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.5
+  - scipy=1.18
+  - pandas=3.0
+  - matplotlib=3.11
+  - arch=8.0          # GARCH / GJR-GARCH filters
+  - statsmodels=0.15  # required by arch
+  - pip
+  - pip:
+      - yfinance==1.7.0   # only needed to download data (scripts 02 and 07)

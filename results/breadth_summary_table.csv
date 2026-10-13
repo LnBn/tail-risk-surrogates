@@ -1,0 +1,45 @@
+asset,class,side,filter,k,tail_pct,zeta,zeta_95ci,residual_clustering_p,exponential,powerlaw,lognormal,powerlaw_by_threshold_1_2_5_10_20pct
+SP500,equity index,left,GJR-t,580,3.0,3.94,"[3.34, 4.40]",0.998,"rejected (max, q=0.028)",ok,ok,o o X X X
+SP500,equity index,right,GJR-t,266,1.4,5.62,"[3.73, 6.61]",0.001,ok,ok,ok,o o X X X
+NASDAQ,equity index,left,GJR-t,320,2.3,4.11,"[3.20, 4.77]",0.928,"rejected (top_hill, q=0.028)",ok,ok,o o X X X
+NASDAQ,equity index,right,GJR-t,212,1.5,6.19,"[4.06, 8.00]",0.001,ok,ok,ok,o o X X X
+FTSE100,equity index,left,GJR-t,234,2.2,4.5,"[3.36, 5.28]",0.689,"rejected (max, q=0.028)",ok,ok,o o X X X
+FTSE100,equity index,right,GJR-t,344,3.2,4.95,"[4.13, 5.80]",0.006,ok,ok,ok,o o X X X
+DAX,equity index,left,GJR-t,360,3.7,4.14,"[3.63, 4.78]",0.932,"rejected (max, q=0.028)",ok,ok,o o o X X
+DAX,equity index,right,GJR-t,128,1.3,5.25,"[4.23, 6.02]",0.129,ok,ok,ok,o o X X X
+NIKKEI225,equity index,left,GJR-t,625,4.1,3.57,"[3.06, 4.39]",0.975,"rejected (max, q=0.028)",ok,ok,o o o X X
+NIKKEI225,equity index,right,GJR-t,562,3.7,4.18,"[3.82, 4.64]",0.018,"rejected (ks, q=0.037)",ok,ok,o o X X X
+HANGSENG,equity index,left,GJR-t,478,4.9,3.47,"[2.94, 4.55]",0.815,"rejected (max, q=0.028)",ok,ok,o X o X X
+HANGSENG,equity index,right,GJR-t,272,2.8,5.0,"[3.71, 5.78]",0.002,ok,ok,ok,o o X X X
+EUROSTOXX50,equity index,left,GJR-t,336,6.9,3.27,"[2.93, 4.47]",0.996,ok,ok,ok,o o o X X
+EUROSTOXX50,equity index,right,GJR-t,456,9.3,3.27,"[2.91, 5.49]",0.595,ok,"rejected (top_hill, q=0.028)",ok,o X o X X
+IBM,single stock,left,GJR-t,727,4.5,3.12,"[2.79, 3.48]",0.175,"rejected (max, q=0.028)",ok,ok,o o o X X
+IBM,single stock,right,GJR-t,901,5.5,3.22,"[3.01, 3.78]",0.253,"rejected (top_hill, q=0.028)",ok,ok,o o o X X
+KO,single stock,left,GJR-t,527,3.2,3.37,"[2.82, 3.86]",0.629,"rejected (top_hill, q=0.028)",ok,ok,o o X X X
+KO,single stock,right,GJR-t,223,1.4,4.59,"[3.14, 5.27]",0.534,ok,ok,ok,o X X X X
+XOM,single stock,left,GJR-t,131,0.8,4.73,"[3.38, 5.43]",0.896,ok,ok,ok,o o X X X
+XOM,single stock,right,GJR-t,308,1.9,5.04,"[3.56, 6.86]",0.582,ok,ok,ok,o o X X X
+JPM,single stock,left,GJR-t,180,1.5,4.07,"[2.90, 4.78]",0.936,"rejected (max, q=0.028)",ok,ok,o o o X X
+JPM,single stock,right,GJR-t,295,2.5,4.08,"[2.90, 4.59]",0.516,ok,ok,ok,o o X X X
+JNJ,single stock,left,GJR-t,201,1.2,4.36,"[2.70, 4.96]",0.494,ok,ok,ok,o o X X X
+JNJ,single stock,right,GJR-t,223,1.4,4.41,"[3.42, 4.85]",0.211,ok,ok,ok,o o X X X
+EURUSD,fx,left,GJR-t,139,2.0,4.99,"[3.65, 6.11]",0.518,ok,ok,ok,o o X X X
+EURUSD,fx,right,GJR-t,252,3.6,4.49,"[3.46, 5.43]",0.126,ok,ok,ok,o o X X X
+GBPUSD,fx,left,GARCH-n,112,0.8,4.63,"[2.90, 5.39]",0.063,ok,ok,ok,o o X X X
+GBPUSD,fx,right,GARCH-n,282,2.1,4.62,"[3.58, 5.92]",0.025,"rejected (max, q=0.028)",ok,ok,o o X X X
+USDJPY,fx,left,GJR-t,312,2.4,3.43,"[2.90, 3.78]",0.736,"rejected (ks, q=0.037)",ok,ok,o o X X X
+USDJPY,fx,right,GJR-t,345,2.6,4.04,"[3.42, 4.54]",0.233,ok,ok,ok,o o X X X
+USDCHF,fx,left,GJR-t,469,3.5,3.75,"[3.23, 5.33]",0.911,"rejected (max, q=0.028)",ok,ok,o X X X X
+USDCHF,fx,right,GJR-t,230,1.7,5.0,"[3.34, 6.02]",0.635,ok,ok,ok,o o X X X
+AUDUSD,fx,left,GJR-t,283,2.6,3.87,"[3.13, 4.54]",0.306,"rejected (top_hill, q=0.028)",ok,ok,o o X X X
+AUDUSD,fx,right,GJR-t,192,1.8,5.45,"[3.45, 7.23]",0.708,ok,ok,ok,o o X X X
+GOLD,commodity,left,GJR-t,164,3.0,3.76,"[2.85, 4.54]",0.756,ok,ok,ok,o o o X X
+GOLD,commodity,right,GJR-t,119,2.2,4.84,"[2.60, 5.78]",0.831,ok,ok,ok,o o o X X
+BRENT,commodity,left,GJR-t,416,4.6,3.44,"[3.03, 3.94]",0.761,"rejected (ks, q=0.037)",ok,ok,o o X X X
+BRENT,commodity,right,GJR-t,379,4.2,3.61,"[2.95, 4.62]",0.571,ok,"rejected (max, q=0.045)",ok,X o X X X
+UST10Y,rates,left,GJR-t,805,5.0,3.45,"[3.07, 4.68]",0.001,ok,"rejected (top_hill, q=0.028)",ok,o o X X X
+UST10Y,rates,right,GJR-t,276,1.7,4.63,"[3.21, 5.32]",0.076,"rejected (top_hill, q=0.028)",ok,ok,o o X X X
+BTC,crypto,left,GJR-t,112,2.5,2.97,"[1.89, 3.54]",0.654,ok,ok,ok,o o o X X
+BTC,crypto,right,GJR-t,140,3.2,3.27,"[2.10, 3.89]",0.086,ok,ok,ok,o o o X X
+ETH,crypto,left,GJR-t,117,3.6,3.08,"[1.73, 3.99]",0.266,ok,ok,ok,. o o X X
+ETH,crypto,right,GJR-t,96,2.9,3.71,"[1.92, 4.84]",0.604,"rejected (top_hill, q=0.045)",ok,ok,. o o X X

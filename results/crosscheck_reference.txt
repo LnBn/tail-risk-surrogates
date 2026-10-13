@@ -1,0 +1,11 @@
+two-sample KS p-values, ours vs reference (high = indistinguishable)
+  powerlaw     max: p=0.244  top_hill: p=0.942  median: p=0.942
+  exponential  max: p=0.000  top_hill: p=0.000  median: p=0.000
+  lognormal    max: p=0.367  top_hill: p=0.581  median: p=0.641
+
+exponential, P(X > v) for v = [1.5 2.5 4. ]
+  exact (UMVUE)         [0.647 0.268 0.07 ]
+  ours                  [0.651 0.266 0.07 ]
+  reference as-is       [0.65  0.275 0.066]
+  reference, cut-off 0  [0.645 0.273 0.07 ]
+  #(x > 2 xmin): data 26, reference as-is surrogates [26], ours range 17-34

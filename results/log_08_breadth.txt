@@ -1,0 +1,28 @@
+done JNJ (filter GJR-t)
+done XOM (filter GJR-t)
+done KO (filter GJR-t)
+src/tailsurr/filters.py:26: ConvergenceWarning: The optimizer returned code 8. The message is:
+Positive directional derivative for linesearch
+See scipy.optimize.fmin_slsqp for code meaning.
+
+  fit = am.fit(disp="off", options={"maxiter": 500})
+done UST10Y (filter GJR-t)
+done IBM (filter GJR-t)
+done SP500 (filter GJR-t)
+done GBPUSD (filter GARCH-n)
+done NASDAQ (filter GJR-t)
+done USDJPY (filter GJR-t)
+done USDCHF (filter GJR-t)
+done NIKKEI225 (filter GJR-t)
+done JPM (filter GJR-t)
+done EURUSD (filter GJR-t)
+done FTSE100 (filter GJR-t)
+done AUDUSD (filter GJR-t)
+done HANGSENG (filter GJR-t)
+done DAX (filter GJR-t)
+done BRENT (filter GJR-t)
+done ETH (filter GJR-t)
+done GOLD (filter GJR-t)
+done BTC (filter GJR-t)
+done EUROSTOXX50 (filter GJR-t)
+written results/breadth_{filters,clustering,tail_index,headline,sensitivity}.csv

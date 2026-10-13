@@ -1,0 +1,22 @@
+asset,date,check,detail
+NASDAQ,1984-12-10,spike-and-reverse,+4.45 then -4.66; merged into -0.21
+NASDAQ,1987-10-20,spike-and-reverse (kept),-9.43 then +7.09; verified genuine: October 1987 crash and rebound
+NIKKEI225,1972-04-03,stale run,20 zero returns to 1972-04-28; dropped
+NIKKEI225,1972-05-01,gap,31 calendar days since previous observation (+5.07); dropped
+NIKKEI225,2019-05-07,gap,11 calendar days since previous observation (-1.52); dropped
+HANGSENG,1989-05-22,spike-and-reverse (kept),"-11.40 then +8.90; verified genuine: Tiananmen-period crash and rebound, May 1989"
+HANGSENG,1997-10-28,spike-and-reverse (kept),"-14.73 then +17.25; verified genuine: Asian financial crisis: -13.7% on 28 Oct, +18.8% on 29 Oct 1997"
+XOM,1962-05-28,spike-and-reverse (kept),-10.32 then +10.07; verified genuine: 28 May 1962 'flash crash' and next-day recovery
+JPM,2020-03-13,spike-and-reverse (kept),"+16.56 then -16.21; verified genuine: COVID crash: +18% on 13 Mar, -15% on 16 Mar 2020"
+JPM,1991-08-30,stale run,5 zero returns to 1991-09-06; dropped
+JPM,1991-09-09,gap,11 calendar days since previous observation (+0.95); dropped
+BRENT,1994-05-17,gap,11 calendar days since previous observation (-2.62); dropped
+BRENT,1994-06-28,gap,11 calendar days since previous observation (-0.88); dropped
+BRENT,1994-07-26,gap,11 calendar days since previous observation (-4.05); dropped
+BRENT,1995-01-03,gap,13 calendar days since previous observation (+1.46); dropped
+BRENT,1995-03-24,gap,11 calendar days since previous observation (+7.96); dropped
+BRENT,1995-06-29,gap,13 calendar days since previous observation (-7.30); dropped
+BRENT,1998-04-14,gap,11 calendar days since previous observation (-3.59); dropped
+BRENT,1998-05-11,gap,12 calendar days since previous observation (+2.25); dropped
+BRENT,1999-09-07,gap,11 calendar days since previous observation (+6.62); dropped
+BRENT,2002-02-19,gap,11 calendar days since previous observation (+0.85); dropped

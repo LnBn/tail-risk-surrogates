@@ -1,0 +1,133 @@
+asset,class,side,family,pattern_1_2_5_10_20pct,largest_tail_frac_not_rejected,n_rejected,n_thresholds
+AUDUSD,fx,left,exponential,o X X X o,0.2,3,5
+AUDUSD,fx,left,lognormal,o o o o o,0.2,0,5
+AUDUSD,fx,left,powerlaw,o o X X X,0.02,3,5
+AUDUSD,fx,right,exponential,o o o o X,0.1,1,5
+AUDUSD,fx,right,lognormal,o o o o X,0.1,1,5
+AUDUSD,fx,right,powerlaw,o o X X X,0.02,3,5
+BRENT,commodity,left,exponential,o o X o o,0.2,1,5
+BRENT,commodity,left,lognormal,o o o o o,0.2,0,5
+BRENT,commodity,left,powerlaw,o o X X X,0.02,3,5
+BRENT,commodity,right,exponential,o o o X o,0.2,1,5
+BRENT,commodity,right,lognormal,o o o o o,0.2,0,5
+BRENT,commodity,right,powerlaw,X o X X X,0.02,4,5
+BTC,crypto,left,exponential,X X X X X,,5,5
+BTC,crypto,left,lognormal,o o o o o,0.2,0,5
+BTC,crypto,left,powerlaw,o o o X X,0.05,2,5
+BTC,crypto,right,exponential,o o X X o,0.2,2,5
+BTC,crypto,right,lognormal,o o o o o,0.2,0,5
+BTC,crypto,right,powerlaw,o o o X X,0.05,2,5
+DAX,equity index,left,exponential,X X X X X,,5,5
+DAX,equity index,left,lognormal,o o o X X,0.05,2,5
+DAX,equity index,left,powerlaw,o o o X X,0.05,2,5
+DAX,equity index,right,exponential,o o o X X,0.05,2,5
+DAX,equity index,right,lognormal,o o o o X,0.1,1,5
+DAX,equity index,right,powerlaw,o o X X X,0.02,3,5
+ETH,crypto,left,exponential,. o o o X,0.1,1,4
+ETH,crypto,left,lognormal,. o o o o,0.2,0,4
+ETH,crypto,left,powerlaw,. o o X X,0.05,2,4
+ETH,crypto,right,exponential,. X X o o,0.2,2,4
+ETH,crypto,right,lognormal,. o o o o,0.2,0,4
+ETH,crypto,right,powerlaw,. o o X X,0.05,2,4
+EUROSTOXX50,equity index,left,exponential,o o o o o,0.2,0,5
+EUROSTOXX50,equity index,left,lognormal,o o o o o,0.2,0,5
+EUROSTOXX50,equity index,left,powerlaw,o o o X X,0.05,2,5
+EUROSTOXX50,equity index,right,exponential,o o o o X,0.1,1,5
+EUROSTOXX50,equity index,right,lognormal,o o o o o,0.2,0,5
+EUROSTOXX50,equity index,right,powerlaw,o X o X X,0.05,3,5
+EURUSD,fx,left,exponential,o o o o X,0.1,1,5
+EURUSD,fx,left,lognormal,o o o o o,0.2,0,5
+EURUSD,fx,left,powerlaw,o o X X X,0.02,3,5
+EURUSD,fx,right,exponential,o o o o X,0.1,1,5
+EURUSD,fx,right,lognormal,o o o o o,0.2,0,5
+EURUSD,fx,right,powerlaw,o o X X X,0.02,3,5
+FTSE100,equity index,left,exponential,X X X X X,,5,5
+FTSE100,equity index,left,lognormal,o o o o o,0.2,0,5
+FTSE100,equity index,left,powerlaw,o o X X X,0.02,3,5
+FTSE100,equity index,right,exponential,o o o o X,0.1,1,5
+FTSE100,equity index,right,lognormal,o o o o o,0.2,0,5
+FTSE100,equity index,right,powerlaw,o o X X X,0.02,3,5
+GBPUSD,fx,left,exponential,o o o X o,0.2,1,5
+GBPUSD,fx,left,lognormal,o o o o o,0.2,0,5
+GBPUSD,fx,left,powerlaw,o o X X X,0.02,3,5
+GBPUSD,fx,right,exponential,X X X X X,,5,5
+GBPUSD,fx,right,lognormal,o o o o X,0.1,1,5
+GBPUSD,fx,right,powerlaw,o o X X X,0.02,3,5
+GOLD,commodity,left,exponential,o o o o o,0.2,0,5
+GOLD,commodity,left,lognormal,o o o o o,0.2,0,5
+GOLD,commodity,left,powerlaw,o o o X X,0.05,2,5
+GOLD,commodity,right,exponential,o o o o o,0.2,0,5
+GOLD,commodity,right,lognormal,o o o o o,0.2,0,5
+GOLD,commodity,right,powerlaw,o o o X X,0.05,2,5
+HANGSENG,equity index,left,exponential,X X X X X,,5,5
+HANGSENG,equity index,left,lognormal,o o o o o,0.2,0,5
+HANGSENG,equity index,left,powerlaw,o X o X X,0.05,3,5
+HANGSENG,equity index,right,exponential,o o o o X,0.1,1,5
+HANGSENG,equity index,right,lognormal,o o o o X,0.1,1,5
+HANGSENG,equity index,right,powerlaw,o o X X X,0.02,3,5
+IBM,single stock,left,exponential,X X X X X,,5,5
+IBM,single stock,left,lognormal,o o X X X,0.02,3,5
+IBM,single stock,left,powerlaw,o o o X X,0.05,2,5
+IBM,single stock,right,exponential,X X X X X,,5,5
+IBM,single stock,right,lognormal,o o o o o,0.2,0,5
+IBM,single stock,right,powerlaw,o o o X X,0.05,2,5
+JNJ,single stock,left,exponential,X X X X X,,5,5
+JNJ,single stock,left,lognormal,o o o o o,0.2,0,5
+JNJ,single stock,left,powerlaw,o o X X X,0.02,3,5
+JNJ,single stock,right,exponential,o o X o o,0.2,1,5
+JNJ,single stock,right,lognormal,o o o o o,0.2,0,5
+JNJ,single stock,right,powerlaw,o o X X X,0.02,3,5
+JPM,single stock,left,exponential,X X X X X,,5,5
+JPM,single stock,left,lognormal,o o o o X,0.1,1,5
+JPM,single stock,left,powerlaw,o o o X X,0.05,2,5
+JPM,single stock,right,exponential,o o o X X,0.05,2,5
+JPM,single stock,right,lognormal,o o o o o,0.2,0,5
+JPM,single stock,right,powerlaw,o o X X X,0.02,3,5
+KO,single stock,left,exponential,X X X X X,,5,5
+KO,single stock,left,lognormal,o o o o o,0.2,0,5
+KO,single stock,left,powerlaw,o o X X X,0.02,3,5
+KO,single stock,right,exponential,o o o o o,0.2,0,5
+KO,single stock,right,lognormal,o o o o o,0.2,0,5
+KO,single stock,right,powerlaw,o X X X X,0.01,4,5
+NASDAQ,equity index,left,exponential,o X X o X,0.1,3,5
+NASDAQ,equity index,left,lognormal,X o o o o,0.2,1,5
+NASDAQ,equity index,left,powerlaw,o o X X X,0.02,3,5
+NASDAQ,equity index,right,exponential,o o o o X,0.1,1,5
+NASDAQ,equity index,right,lognormal,o o o o X,0.1,1,5
+NASDAQ,equity index,right,powerlaw,o o X X X,0.02,3,5
+NIKKEI225,equity index,left,exponential,X X X X X,,5,5
+NIKKEI225,equity index,left,lognormal,o o o o o,0.2,0,5
+NIKKEI225,equity index,left,powerlaw,o o o X X,0.05,2,5
+NIKKEI225,equity index,right,exponential,o o X o X,0.1,2,5
+NIKKEI225,equity index,right,lognormal,o o o o o,0.2,0,5
+NIKKEI225,equity index,right,powerlaw,o o X X X,0.02,3,5
+SP500,equity index,left,exponential,X X X X X,,5,5
+SP500,equity index,left,lognormal,o o X X X,0.02,3,5
+SP500,equity index,left,powerlaw,o o X X X,0.02,3,5
+SP500,equity index,right,exponential,X X o o X,0.1,3,5
+SP500,equity index,right,lognormal,o o o o o,0.2,0,5
+SP500,equity index,right,powerlaw,o o X X X,0.02,3,5
+USDCHF,fx,left,exponential,X X X X X,,5,5
+USDCHF,fx,left,lognormal,o o o o X,0.1,1,5
+USDCHF,fx,left,powerlaw,o X X X X,0.01,4,5
+USDCHF,fx,right,exponential,o o o o o,0.2,0,5
+USDCHF,fx,right,lognormal,o o o o o,0.2,0,5
+USDCHF,fx,right,powerlaw,o o X X X,0.02,3,5
+USDJPY,fx,left,exponential,o X X X X,0.01,4,5
+USDJPY,fx,left,lognormal,o o X o o,0.2,1,5
+USDJPY,fx,left,powerlaw,o o X X X,0.02,3,5
+USDJPY,fx,right,exponential,o o X X o,0.2,2,5
+USDJPY,fx,right,lognormal,o o o o o,0.2,0,5
+USDJPY,fx,right,powerlaw,o o X X X,0.02,3,5
+UST10Y,rates,left,exponential,o o X o o,0.2,1,5
+UST10Y,rates,left,lognormal,o o o o o,0.2,0,5
+UST10Y,rates,left,powerlaw,o o X X X,0.02,3,5
+UST10Y,rates,right,exponential,o o o o X,0.1,1,5
+UST10Y,rates,right,lognormal,o o o o o,0.2,0,5
+UST10Y,rates,right,powerlaw,o o X X X,0.02,3,5
+XOM,single stock,left,exponential,X X X X X,,5,5
+XOM,single stock,left,lognormal,o o o o o,0.2,0,5
+XOM,single stock,left,powerlaw,o o X X X,0.02,3,5
+XOM,single stock,right,exponential,o o o o X,0.1,1,5
+XOM,single stock,right,lognormal,o o o o o,0.2,0,5
+XOM,single stock,right,powerlaw,o o X X X,0.02,3,5

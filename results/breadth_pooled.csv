@@ -1,0 +1,43 @@
+grouping,side,family,statistic,test,n,cauchy_p,fisher_p,n_positive_z
+all assets,left,exponential,ks,two-sided/upper as in headline,22,0.0033395177731999626,1.984023426515545e-20,
+all assets,left,exponential,max,two-sided/upper as in headline,22,0.0047585399277149665,5.711104888175593e-19,
+all assets,left,exponential,top_hill,two-sided/upper as in headline,22,0.0048934450563276055,1.4803053817663626e-17,
+all assets,left,lognormal,ks,two-sided/upper as in headline,22,0.9246526485744053,0.9761213601588679,
+all assets,left,lognormal,max,two-sided/upper as in headline,22,0.7989150436628574,0.7001418957792553,
+all assets,left,lognormal,top_hill,two-sided/upper as in headline,22,0.9999999999999778,0.3744893910804469,
+all assets,left,powerlaw,ks,two-sided/upper as in headline,22,0.9203228321198533,0.9517594975830831,
+all assets,left,powerlaw,max,two-sided/upper as in headline,22,0.6946246228181091,0.14883185839392798,
+all assets,left,powerlaw,top_hill,two-sided/upper as in headline,22,0.045105834084998686,0.19829809119606873,
+all assets,right,exponential,ks,two-sided/upper as in headline,22,0.01150514753537979,8.640722586518278e-10,
+all assets,right,exponential,max,two-sided/upper as in headline,22,0.019629058517382447,2.9923836424125475e-06,
+all assets,right,exponential,top_hill,two-sided/upper as in headline,22,0.01420303219998248,1.7554279684357383e-06,
+all assets,right,lognormal,ks,two-sided/upper as in headline,22,0.8047927134854168,0.988415467078152,
+all assets,right,lognormal,max,two-sided/upper as in headline,22,0.9999999999999778,0.42679634510965875,
+all assets,right,lognormal,top_hill,two-sided/upper as in headline,22,0.6257331778328935,0.5835565373387176,
+all assets,right,powerlaw,ks,two-sided/upper as in headline,22,0.9094451467562512,0.9876914113425104,
+all assets,right,powerlaw,max,two-sided/upper as in headline,22,0.10701554631348337,0.03666154618851299,
+all assets,right,powerlaw,top_hill,two-sided/upper as in headline,22,0.030739303723424094,0.0053658195300954805,
+all assets,left,powerlaw,top_hill,far tail lighter than power law,22,0.020602207432237396,0.03476296114961846,10.0
+all assets,left,powerlaw,top_hill,far tail heavier than power law,22,0.9999999999999778,0.8948371102444562,10.0
+all assets,right,powerlaw,top_hill,far tail lighter than power law,22,0.014461880851146247,1.1305705451468693e-05,16.0
+all assets,right,powerlaw,top_hill,far tail heavier than power law,22,0.9999999999999778,0.9998743887235448,16.0
+all assets,both,powerlaw,top_hill,far tail lighter than power law,44,0.016994916576563268,6.9061508869785195e-06,26.0
+all assets,both,powerlaw,top_hill,far tail heavier than power law,44,0.9999999999999778,0.9995875575580122,26.0
+class: commodity,both,exponential,all,two-sided/upper as in headline,12,0.02705658889423046,0.0007060967485936458,
+class: commodity,both,lognormal,all,two-sided/upper as in headline,12,0.29928420905937647,0.6458507323295501,
+class: commodity,both,powerlaw,all,two-sided/upper as in headline,12,0.039316930712111786,0.039875911480266535,
+class: crypto,both,exponential,all,two-sided/upper as in headline,12,0.01671701012358001,5.751284671515519e-07,
+class: crypto,both,lognormal,all,two-sided/upper as in headline,12,0.512937467935948,0.6904683295019028,
+class: crypto,both,powerlaw,all,two-sided/upper as in headline,12,0.9298762121697287,0.9673463902293159,
+class: equity index,both,exponential,all,two-sided/upper as in headline,42,0.004844502597563749,3.3645169653236593e-25,
+class: equity index,both,lognormal,all,two-sided/upper as in headline,42,0.9999999999999576,0.4766825563764878,
+class: equity index,both,powerlaw,all,two-sided/upper as in headline,42,0.10063554094187221,0.044112431704141225,
+class: fx,both,exponential,all,two-sided/upper as in headline,30,0.009250414380480465,4.394102488964501e-16,
+class: fx,both,lognormal,all,two-sided/upper as in headline,30,0.8432034702346866,0.8173961441080531,
+class: fx,both,powerlaw,all,two-sided/upper as in headline,30,0.7100668254035922,0.6496525245235446,
+class: rates,both,exponential,all,two-sided/upper as in headline,6,0.008330081723236238,7.854058441210832e-05,
+class: rates,both,lognormal,all,two-sided/upper as in headline,6,0.316924216031476,0.3240518124827247,
+class: rates,both,powerlaw,all,two-sided/upper as in headline,6,0.012127935424765146,0.008121655210910572,
+class: single stock,both,exponential,all,two-sided/upper as in headline,30,0.004619536930486667,1.1015838699345297e-20,
+class: single stock,both,lognormal,all,two-sided/upper as in headline,30,0.9999999999999698,0.9946832592526639,
+class: single stock,both,powerlaw,all,two-sided/upper as in headline,30,0.7873337451684121,0.665359053175201,
